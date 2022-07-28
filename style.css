@@ -1,0 +1,30 @@
+.jumbotron{
+    padding-top: 2rem;
+    background-color: #caf9da;
+    padding-bottom: 1rem;
+}
+#project{
+    background-color: #caf9da;
+}
+#about{
+    padding-top: 1rem;
+}
+.sub-menu-1{
+    display: none;
+}
+
+.navbar ul li:hover .sub-menu-1
+{
+display : block;
+position: absolute;
+}
+
+.navbar ul li:hover .sub-menu-1 ul{
+    display: block;
+    margin: 10px;
+}
+
+.navbar ul li:hover .sub-menu-1 ul li{
+    background: transparent;
+}
+

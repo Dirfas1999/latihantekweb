@@ -1,3 +1,4 @@
+let apiURL = "https://mdirfastekweb.com/api/index.php/";
 Vue.createApp({
     data() {
       return {

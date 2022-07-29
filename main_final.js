@@ -11,7 +11,7 @@ Vue.createApp({
         getHeaderData()
         {
           axios
-            .get(header.json)
+            .get(apiURL+"users/1")
             .then((res) => {              
               this.header = res.data;
               this.getArticles();

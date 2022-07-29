@@ -23,9 +23,7 @@ Vue.createApp({
         getArticles()
         {
             axios
-            .get(
-              
-            )
+            .get(apiURL+"articles/1")
             .then((res) => {              
               this.articles = res.data;
             })

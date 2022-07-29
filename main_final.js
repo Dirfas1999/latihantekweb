@@ -8,7 +8,7 @@ Vue.createApp({
       };
     },
     methods:{    
-        getHeaderData()
+        getHeaderData('test')
         {
           axios
             .get(apiURL+"users/1")
@@ -20,7 +20,7 @@ Vue.createApp({
               console.log(error);
             });
         },
-        getArticles()
+        getArticles('test')
         {
             axios
             .get(apiURL+"articles/")
